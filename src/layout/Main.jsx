@@ -61,14 +61,4 @@ render() {
 }
 
 }
-
-// function Main() {
-// return ( <main classNameName='container content'>
-//     Hello from movies App
-//     <Movies />
-// </main>
-     
-// )
-// }
-
 export {Main}
