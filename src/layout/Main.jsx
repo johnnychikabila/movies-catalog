@@ -50,7 +50,7 @@ class Main extends Component {
 
 render() {
     const {movies, loading} = this.state;
-    return ( <main classNameName='container content'>
+    return ( <main className='content container'>
         <Search searchInputFunc={this.searchInputFunc} />
         {
            loading ? <Preloader /> : <Movies movies={movies }/>

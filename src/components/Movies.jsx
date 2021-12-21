@@ -9,7 +9,9 @@ function Movies(props) {
             movies.map(movie => (<Movie key={movie.imdbID} Title={movie.Title} Poster={movie.Poster} Type={movie.Type} Year={movie.Year} /> //{...movie}
         )) 
         ) : (
+        <div className='nothing-found' >
         <h4>Nothing found</h4>
+        </div>
         )}
         </div>
     )
