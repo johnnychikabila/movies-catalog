@@ -81,6 +81,11 @@ h4 {
   .input-field input[type=search] {
     border-radius: 0;
   }
+
+  .validate {
+    border-radius: 0px;
+  }
+
   .movies {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
