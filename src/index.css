@@ -79,10 +79,10 @@ h4 {
 
 @media (max-width: 667px) {
   .input-field input[type=search] {
-    border-radius: 0;
+    border-radius: 0px;
   }
 
-  .validate {
+  [type="search"] .validate .Placeholder {
     border-radius: 0px;
   }
 
